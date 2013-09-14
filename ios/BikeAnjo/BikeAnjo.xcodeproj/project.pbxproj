@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26BB49817E5009A000F2336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26BB49717E5009A000F2336 /* Foundation.framework */; };
+		A26BB49A17E5009A000F2336 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26BB49917E5009A000F2336 /* CoreGraphics.framework */; };
+		A26BB49C17E5009A000F2336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26BB49B17E5009A000F2336 /* UIKit.framework */; };
+		A26BB4A217E5009A000F2336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26BB4A017E5009A000F2336 /* InfoPlist.strings */; };
+		A26BB4A417E5009A000F2336 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26BB4A317E5009A000F2336 /* main.m */; };
+		A26BB4A817E5009A000F2336 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26BB4A717E5009A000F2336 /* AppDelegate.m */; };
+		A26BB4AB17E5009A000F2336 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26BB4A917E5009A000F2336 /* Main.storyboard */; };
+		A26BB4AE17E5009A000F2336 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A26BB4AD17E5009A000F2336 /* ViewController.m */; };
+		A26BB4B017E5009A000F2336 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26BB4AF17E5009A000F2336 /* Images.xcassets */; };
+		A26BB4B717E5009A000F2336 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26BB4B617E5009A000F2336 /* XCTest.framework */; };
+		A26BB4B817E5009A000F2336 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26BB49717E5009A000F2336 /* Foundation.framework */; };
+		A26BB4B917E5009A000F2336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26BB49B17E5009A000F2336 /* UIKit.framework */; };
+		A26BB4C117E5009A000F2336 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26BB4BF17E5009A000F2336 /* InfoPlist.strings */; };
+		A26BB4C317E5009A000F2336 /* BikeAnjoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A26BB4C217E5009A000F2336 /* BikeAnjoTests.m */; };
+		A26BB4CD17E501F0000F2336 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26BB4CC17E501F0000F2336 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A26BB4BA17E5009A000F2336 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A26BB48C17E5009A000F2336 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26BB49317E5009A000F2336;
+			remoteInfo = BikeAnjo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A26BB49417E5009A000F2336 /* BikeAnjo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeAnjo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26BB49717E5009A000F2336 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A26BB49917E5009A000F2336 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A26BB49B17E5009A000F2336 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A26BB49F17E5009A000F2336 /* BikeAnjo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BikeAnjo-Info.plist"; sourceTree = "<group>"; };
+		A26BB4A117E5009A000F2336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A26BB4A317E5009A000F2336 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A26BB4A517E5009A000F2336 /* BikeAnjo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BikeAnjo-Prefix.pch"; sourceTree = "<group>"; };
+		A26BB4A617E5009A000F2336 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A26BB4A717E5009A000F2336 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A26BB4AA17E5009A000F2336 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26BB4AC17E5009A000F2336 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A26BB4AD17E5009A000F2336 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A26BB4AF17E5009A000F2336 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A26BB4B517E5009A000F2336 /* BikeAnjoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeAnjoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26BB4B617E5009A000F2336 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A26BB4BE17E5009A000F2336 /* BikeAnjoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BikeAnjoTests-Info.plist"; sourceTree = "<group>"; };
+		A26BB4C017E5009A000F2336 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A26BB4C217E5009A000F2336 /* BikeAnjoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeAnjoTests.m; sourceTree = "<group>"; };
+		A26BB4CC17E501F0000F2336 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26BB49117E5009A000F2336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26BB49A17E5009A000F2336 /* CoreGraphics.framework in Frameworks */,
+				A26BB49C17E5009A000F2336 /* UIKit.framework in Frameworks */,
+				A26BB4CD17E501F0000F2336 /* MapKit.framework in Frameworks */,
+				A26BB49817E5009A000F2336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26BB4B217E5009A000F2336 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26BB4B717E5009A000F2336 /* XCTest.framework in Frameworks */,
+				A26BB4B917E5009A000F2336 /* UIKit.framework in Frameworks */,
+				A26BB4B817E5009A000F2336 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26BB48B17E5009A000F2336 = {
+			isa = PBXGroup;
+			children = (
+				A26BB49D17E5009A000F2336 /* BikeAnjo */,
+				A26BB4BC17E5009A000F2336 /* BikeAnjoTests */,
+				A26BB49617E5009A000F2336 /* Frameworks */,
+				A26BB49517E5009A000F2336 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26BB49517E5009A000F2336 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26BB49417E5009A000F2336 /* BikeAnjo.app */,
+				A26BB4B517E5009A000F2336 /* BikeAnjoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26BB49617E5009A000F2336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A26BB4CC17E501F0000F2336 /* MapKit.framework */,
+				A26BB49717E5009A000F2336 /* Foundation.framework */,
+				A26BB49917E5009A000F2336 /* CoreGraphics.framework */,
+				A26BB49B17E5009A000F2336 /* UIKit.framework */,
+				A26BB4B617E5009A000F2336 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A26BB49D17E5009A000F2336 /* BikeAnjo */ = {
+			isa = PBXGroup;
+			children = (
+				A26BB4A617E5009A000F2336 /* AppDelegate.h */,
+				A26BB4A717E5009A000F2336 /* AppDelegate.m */,
+				A26BB4A917E5009A000F2336 /* Main.storyboard */,
+				A26BB4AC17E5009A000F2336 /* ViewController.h */,
+				A26BB4AD17E5009A000F2336 /* ViewController.m */,
+				A26BB4AF17E5009A000F2336 /* Images.xcassets */,
+				A26BB49E17E5009A000F2336 /* Supporting Files */,
+			);
+			path = BikeAnjo;
+			sourceTree = "<group>";
+		};
+		A26BB49E17E5009A000F2336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26BB49F17E5009A000F2336 /* BikeAnjo-Info.plist */,
+				A26BB4A017E5009A000F2336 /* InfoPlist.strings */,
+				A26BB4A317E5009A000F2336 /* main.m */,
+				A26BB4A517E5009A000F2336 /* BikeAnjo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A26BB4BC17E5009A000F2336 /* BikeAnjoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A26BB4C217E5009A000F2336 /* BikeAnjoTests.m */,
+				A26BB4BD17E5009A000F2336 /* Supporting Files */,
+			);
+			path = BikeAnjoTests;
+			sourceTree = "<group>";
+		};
+		A26BB4BD17E5009A000F2336 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26BB4BE17E5009A000F2336 /* BikeAnjoTests-Info.plist */,
+				A26BB4BF17E5009A000F2336 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26BB49317E5009A000F2336 /* BikeAnjo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26BB4C617E5009A000F2336 /* Build configuration list for PBXNativeTarget "BikeAnjo" */;
+			buildPhases = (
+				A26BB49017E5009A000F2336 /* Sources */,
+				A26BB49117E5009A000F2336 /* Frameworks */,
+				A26BB49217E5009A000F2336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeAnjo;
+			productName = BikeAnjo;
+			productReference = A26BB49417E5009A000F2336 /* BikeAnjo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A26BB4B417E5009A000F2336 /* BikeAnjoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26BB4C917E5009A000F2336 /* Build configuration list for PBXNativeTarget "BikeAnjoTests" */;
+			buildPhases = (
+				A26BB4B117E5009A000F2336 /* Sources */,
+				A26BB4B217E5009A000F2336 /* Frameworks */,
+				A26BB4B317E5009A000F2336 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26BB4BB17E5009A000F2336 /* PBXTargetDependency */,
+			);
+			name = BikeAnjoTests;
+			productName = BikeAnjoTests;
+			productReference = A26BB4B517E5009A000F2336 /* BikeAnjoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26BB48C17E5009A000F2336 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Gabriel Bernardo Pereira";
+				TargetAttributes = {
+					A26BB49317E5009A000F2336 = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A26BB4B417E5009A000F2336 = {
+						TestTargetID = A26BB49317E5009A000F2336;
+					};
+				};
+			};
+			buildConfigurationList = A26BB48F17E5009A000F2336 /* Build configuration list for PBXProject "BikeAnjo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A26BB48B17E5009A000F2336;
+			productRefGroup = A26BB49517E5009A000F2336 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26BB49317E5009A000F2336 /* BikeAnjo */,
+				A26BB4B417E5009A000F2336 /* BikeAnjoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26BB49217E5009A000F2336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26BB4B017E5009A000F2336 /* Images.xcassets in Resources */,
+				A26BB4A217E5009A000F2336 /* InfoPlist.strings in Resources */,
+				A26BB4AB17E5009A000F2336 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26BB4B317E5009A000F2336 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26BB4C117E5009A000F2336 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26BB49017E5009A000F2336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26BB4AE17E5009A000F2336 /* ViewController.m in Sources */,
+				A26BB4A817E5009A000F2336 /* AppDelegate.m in Sources */,
+				A26BB4A417E5009A000F2336 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26BB4B117E5009A000F2336 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26BB4C317E5009A000F2336 /* BikeAnjoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A26BB4BB17E5009A000F2336 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26BB49317E5009A000F2336 /* BikeAnjo */;
+			targetProxy = A26BB4BA17E5009A000F2336 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A26BB4A017E5009A000F2336 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26BB4A117E5009A000F2336 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A26BB4A917E5009A000F2336 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26BB4AA17E5009A000F2336 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A26BB4BF17E5009A000F2336 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26BB4C017E5009A000F2336 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26BB4C417E5009A000F2336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A26BB4C517E5009A000F2336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26BB4C717E5009A000F2336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikeAnjo/BikeAnjo-Prefix.pch";
+				INFOPLIST_FILE = "BikeAnjo/BikeAnjo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A26BB4C817E5009A000F2336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikeAnjo/BikeAnjo-Prefix.pch";
+				INFOPLIST_FILE = "BikeAnjo/BikeAnjo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A26BB4CA17E5009A000F2336 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BikeAnjo.app/BikeAnjo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikeAnjo/BikeAnjo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BikeAnjoTests/BikeAnjoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A26BB4CB17E5009A000F2336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BikeAnjo.app/BikeAnjo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BikeAnjo/BikeAnjo-Prefix.pch";
+				INFOPLIST_FILE = "BikeAnjoTests/BikeAnjoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26BB48F17E5009A000F2336 /* Build configuration list for PBXProject "BikeAnjo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26BB4C417E5009A000F2336 /* Debug */,
+				A26BB4C517E5009A000F2336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26BB4C617E5009A000F2336 /* Build configuration list for PBXNativeTarget "BikeAnjo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26BB4C717E5009A000F2336 /* Debug */,
+				A26BB4C817E5009A000F2336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26BB4C917E5009A000F2336 /* Build configuration list for PBXNativeTarget "BikeAnjoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26BB4CA17E5009A000F2336 /* Debug */,
+				A26BB4CB17E5009A000F2336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26BB48C17E5009A000F2336 /* Project object */;
+}
